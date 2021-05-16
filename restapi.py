@@ -11,7 +11,7 @@ def hello_world():
 
 @app.route('/api/us')
 def hello_uday():
-    return json.dumps('Hello, Us Data given!')
+    return json.dumps('Hello, USA Data given!')
 
 
 if __name__ == '__main__':
